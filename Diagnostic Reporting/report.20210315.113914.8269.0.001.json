@@ -1,0 +1,722 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "SIGUSR2",
+    "trigger": "Signal",
+    "filename": "report.20210315.113914.8269.0.001.json",
+    "dumpEventTime": "2021-03-15T11:39:14Z",
+    "dumpEventTimeStamp": "1615801154499",
+    "processId": 8269,
+    "threadId": 0,
+    "cwd": "/Users/naor.tedgi/dev/node-14-whats-new/Diagnostic Reporting",
+    "commandLine": [
+      "node",
+      "--report-uncaught-exception",
+      "--report-on-signal",
+      "--report-on-fatalerror",
+      "app.js"
+    ],
+    "nodejsVersion": "v14.15.4",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "14.15.4",
+      "v8": "8.4.371.19-node.17",
+      "uv": "1.40.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.9",
+      "ares": "1.16.1",
+      "modules": "83",
+      "nghttp2": "1.41.0",
+      "napi": "7",
+      "llhttp": "2.1.3",
+      "openssl": "1.1.1i",
+      "cldr": "37.0",
+      "icu": "67.1",
+      "tz": "2020a",
+      "unicode": "13.0"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Fermium",
+      "headersUrl": "https://nodejs.org/download/release/v14.15.4/node-v14.15.4-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v14.15.4/node-v14.15.4.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "19.6.0",
+    "osVersion": "Darwin Kernel Version 19.6.0: Tue Jan 12 22:13:05 PST 2021; root:xnu-6153.141.16~1/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 1549610,
+        "nice": 0,
+        "sys": 1003760,
+        "idle": 5895200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 99050,
+        "nice": 0,
+        "sys": 88390,
+        "idle": 8260600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 1433070,
+        "nice": 0,
+        "sys": 781330,
+        "idle": 6233650,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 92300,
+        "nice": 0,
+        "sys": 70020,
+        "idle": 8285720,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 1278350,
+        "nice": 0,
+        "sys": 676580,
+        "idle": 6493130,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 91810,
+        "nice": 0,
+        "sys": 61690,
+        "idle": 8294540,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 1079110,
+        "nice": 0,
+        "sys": 549360,
+        "idle": 6819580,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 91730,
+        "nice": 0,
+        "sys": 55050,
+        "idle": 8301260,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 905710,
+        "nice": 0,
+        "sys": 451050,
+        "idle": 7091290,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 91150,
+        "nice": 0,
+        "sys": 49500,
+        "idle": 8307400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 664810,
+        "nice": 0,
+        "sys": 327040,
+        "idle": 7456200,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 90260,
+        "nice": 0,
+        "sys": 44760,
+        "idle": 8313020,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en5",
+        "internal": false,
+        "mac": "ac:de:48:00:11:22",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "14:7d:da:d5:f4:de",
+        "address": "fe80::18ee:32d6:e6a6:6960",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "14:7d:da:d5:f4:de",
+        "address": "10.100.102.15",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "ea:bd:16:53:d0:46",
+        "address": "fe80::e8bd:16ff:fe53:d046",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "ea:bd:16:53:d0:46",
+        "address": "fe80::e8bd:16ff:fe53:d046",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::9997:ecc6:8eb3:b458",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 15
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::17ba:aacb:10b5:6052",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "ipsec0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "100.124.6.40",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "ipsec0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "ipsec0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2a0a:4b00:25d:4099:5801:4002:0:645",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::6461:915c:cbb0:9c4e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "utun3",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::9bbe:d7f4:623:cb53",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      }
+    ],
+    "host": "Naors-MacBook-Pro.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ],
+    "errorProperties": {
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000100118e70",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::Object>) [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    },
+    {
+      "pc": "0x000000010011fce4",
+      "symbol": "report::WriteReport(v8::FunctionCallbackInfo<v8::Value> const&) [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    },
+    {
+      "pc": "0x000000010025a4e8",
+      "symbol": "v8::internal::FunctionCallbackArguments::Call(v8::internal::CallHandlerInfo) [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    },
+    {
+      "pc": "0x0000000100259a7c",
+      "symbol": "v8::internal::MaybeHandle<v8::internal::Object> v8::internal::(anonymous namespace)::HandleApiCallHelper<false>(v8::internal::Isolate*, v8::internal::Handle<v8::internal::HeapObject>, v8::internal::Handle<v8::internal::HeapObject>, v8::internal::Handle<v8::internal::FunctionTemplateInfo>, v8::internal::Handle<v8::internal::Object>, v8::internal::BuiltinArguments) [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    },
+    {
+      "pc": "0x00000001002591a2",
+      "symbol": "v8::internal::Builtin_Impl_HandleApiCall(v8::internal::BuiltinArguments, v8::internal::Isolate*) [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    },
+    {
+      "pc": "0x0000000100a7a359",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_BuiltinExit [/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 6750208,
+    "totalCommittedMemory": 5109008,
+    "usedMemory": 4825184,
+    "availableMemory": 4341422216,
+    "memoryLimit": 4345298944,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 151552,
+        "committedMemory": 150680,
+        "capacity": 150392,
+        "used": 150392,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 26784,
+        "capacity": 1047424,
+        "used": 25632,
+        "available": 1021792
+      },
+      "old_space": {
+        "memorySize": 4079616,
+        "committedMemory": 3762736,
+        "capacity": 4066040,
+        "used": 3752128,
+        "available": 313912
+      },
+      "code_space": {
+        "memorySize": 360448,
+        "committedMemory": 121408,
+        "capacity": 335872,
+        "used": 96064,
+        "available": 239808
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 465768,
+        "capacity": 524288,
+        "used": 273744,
+        "available": 250544
+      },
+      "large_object_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 524344,
+        "used": 524344,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2880,
+        "used": 2880,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047424,
+        "used": 0,
+        "available": 1047424
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.146635,
+    "kernelCpuSeconds": 0.038514,
+    "cpuConsumptionPercent": 0.881662,
+    "maxRss": 32560381952,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 9143
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000001054078b0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000001034efab0"
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": true,
+      "address": "0x000000010700a300",
+      "repeat": 0,
+      "firesInMsFromNow": 904,
+      "expired": false
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000010700a398"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000010700a410"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000000010700a488"
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000105222088",
+      "signum": 31,
+      "signal": "SIGUSR2"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00000001056046e0",
+      "width": 141,
+      "height": 26,
+      "fd": 20,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000001056051b8",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tcp",
+      "is_active": true,
+      "is_referenced": true,
+      "address": "0x0000000105442270",
+      "localEndpoint": {
+        "host": "::",
+        "port": 12000
+      },
+      "remoteEndpoint": null,
+      "sendBufferSize": 131072,
+      "recvBufferSize": 131072,
+      "fd": 22,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000105442520",
+      "width": 141,
+      "height": 26,
+      "fd": 23,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": true,
+      "address": "0x00000001034f5db0"
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "DEMAND_LIBS": "/Users/naor.tedgi/workdir/demand-libs",
+    "NVM_INC": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/include/node",
+    "rvm_use_flag": "",
+    "TERM_PROGRAM": "vscode",
+    "rvm_bin_path": "/Users/naor.tedgi/.rvm/bin",
+    "NODE": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node",
+    "INIT_CWD": "/Users/naor.tedgi/dev/node-14-whats-new/Diagnostic Reporting",
+    "rvm_quiet_flag": "",
+    "_P9K_TTY": "/dev/ttys001",
+    "DOCKERS_WORKSPACE": "/Users/naor.tedgi/workdir/ssa/docker/stacks/platform-dev",
+    "NVM_CD_FLAGS": "-q",
+    "GEM_HOME": "/Users/naor.tedgi/.rvm/gems/ruby-2.7.2",
+    "rvm_gemstone_url": "",
+    "SHELL": "/bin/zsh",
+    "TERM": "xterm-256color",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "rvm_docs_type": "",
+    "TMPDIR": "/var/folders/pt/k12vbcvx7klfmbm7sf8sr5zh0000gn/T/",
+    "IRBRC": "/Users/naor.tedgi/.rvm/rubies/ruby-2.7.2/.irbrc",
+    "TERM_PROGRAM_VERSION": "1.54.2",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "COLOR": "1",
+    "rvm_hook": "",
+    "TERM_SESSION_ID": "w0t0p0:9AC621F6-7182-4C0A-A3A8-9349887D5417",
+    "MY_RUBY_HOME": "/Users/naor.tedgi/.rvm/rubies/ruby-2.7.2",
+    "DB": "/Users/naor.tedgi/workdir/mysqlDB",
+    "SDKMAN_PLATFORM": "DarwinX64",
+    "SSA": "/Users/naor.tedgi/workdir/ssa",
+    "ZSH": "/Users/naor.tedgi/.oh-my-zsh",
+    "DOCKER_THIS_PC_IP": "10.100.102.15",
+    "USER": "naor.tedgi",
+    "NVM_DIR": "/Users/naor.tedgi/.nvm",
+    "rvm_gemstone_package_file": "",
+    "npm_config_globalconfig": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/etc/npmrc",
+    "WORKDIR": "/Users/naor.tedgi/workdir",
+    "SDKMAN_CANDIDATES_API": "https://api.sdkman.io/2",
+    "rvm_path": "/Users/naor.tedgi/.rvm",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.yq3UNhcHLf/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "npm_execpath": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/lib/node_modules/npm/bin/npm-cli.js",
+    "rvm_proxy": "",
+    "PATH_TO_DOCKER_JS": "/Users/naor.tedgi/workdir/platform-js/docker-compose.yaml",
+    "rvm_ruby_file": "",
+    "PAGER": "less",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "rvm_silent_flag": "",
+    "rvm_prefix": "/Users/naor.tedgi",
+    "npm_config_init.module": "/Users/naor.tedgi/.npm-init.js",
+    "rvm_ruby_make": "",
+    "PATH": "/Users/naor.tedgi/dev/node-14-whats-new/Diagnostic Reporting/node_modules/.bin:/Users/naor.tedgi/dev/node-14-whats-new/node_modules/.bin:/Users/naor.tedgi/dev/node_modules/.bin:/Users/naor.tedgi/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/naor.tedgi/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/naor.tedgi/.rvm/gems/ruby-2.7.2/bin:/Users/naor.tedgi/.rvm/gems/ruby-2.7.2@global/bin:/Users/naor.tedgi/.rvm/rubies/ruby-2.7.2/bin:/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin:/Users/naor.tedgi/.gem/ruby/2.7.0/bin:/Users/naor.tedgi/bin:/usr/local/bin:/usr/local/opt/openssl/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/naor.tedgi/.rvm/gems/ruby-2.7.2/bin:/Users/naor.tedgi/.rvm/gems/ruby-2.7.2@global/bin:/Users/naor.tedgi/.rvm/rubies/ruby-2.7.2/bin:/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin:/Users/naor.tedgi/.gem/ruby/2.7.0/bin:/Users/naor.tedgi/bin:/usr/local/opt/openssl/bin:/Users/naor.tedgi/.rvm/bin:/Users/naor.tedgi/.rvm/bin",
+    "RUBY_CONFIGURE_OPTS": "--with-openssl-dir=/usr/local/opt/openssl@1.1",
+    "npm_package_json": "/Users/naor.tedgi/dev/node-14-whats-new/Diagnostic Reporting/package.json",
+    "_": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node",
+    "npm_config_userconfig": "/Users/naor.tedgi/.npmrc",
+    "npm_config_init_module": "/Users/naor.tedgi/.npm-init.js",
+    "npm_command": "run",
+    "PWD": "/Users/naor.tedgi/dev/node-14-whats-new/Diagnostic Reporting",
+    "npm_lifecycle_event": "start",
+    "EDITOR": "vi",
+    "P9K_SSH": "0",
+    "npm_package_name": "diagnostic-reporting",
+    "rvm_sdk": "",
+    "LANG": "en_US.UTF-8",
+    "P9K_TTY": "old",
+    "ITERM_PROFILE": "Hotkey Window",
+    "SDKMAN_VERSION": "5.9.2+613",
+    "XPC_FLAGS": "0x0",
+    "PATH_TO_DUMP_MYSQL": "/Users/naor.tedgi/workdir/dumpmysql",
+    "MY_GIT_TOKEN": "4ea2242b0ab35c076b43963ce49900c3edd7c39f",
+    "npm_config_node_gyp": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "npm_package_version": "1.0.0",
+    "XPC_SERVICE_NAME": "0",
+    "DBFirstSnapshot": "/Users/naor.tedgi/workdir/mysqlDBSnapshot",
+    "rvm_version": "1.29.11 (latest)",
+    "rvm_script_name": "",
+    "rvm_pretty_print_flag": "",
+    "COLORFGBG": "15;0",
+    "HOME": "/Users/naor.tedgi",
+    "SHLVL": "4",
+    "rvm_ruby_mode": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "PATH_TO_DOCKER_DEMAND_PLATFORM": "/Users/naor.tedgi/workdir/demand-platform-ui/docker-compose.yaml",
+    "LC_TERMINAL_VERSION": "3.4.4",
+    "ITERM_SESSION_ID": "w0t0p0:9AC621F6-7182-4C0A-A3A8-9349887D5417",
+    "npm_config_cache": "/Users/naor.tedgi/.npm",
+    "LOGNAME": "naor.tedgi",
+    "LESS": "-R",
+    "npm_lifecycle_script": "node --report-uncaught-exception --report-on-signal --report-on-fatalerror app.js",
+    "rvm_alias_expanded": "",
+    "FUSION": "/Users/naor.tedgi/workdir/fusion-ui",
+    "DBBackup": "/Users/naor.tedgi/workdir/mysqlDBBackup",
+    "SDKMAN_DIR": "/Users/naor.tedgi/.sdkman",
+    "VSCODE_GIT_IPC_HANDLE": "/var/folders/pt/k12vbcvx7klfmbm7sf8sr5zh0000gn/T/vscode-git-38978c5604.sock",
+    "LC_CTYPE": "UTF-8",
+    "GEM_PATH": "/Users/naor.tedgi/.rvm/gems/ruby-2.7.2:/Users/naor.tedgi/.rvm/gems/ruby-2.7.2@global",
+    "NVM_BIN": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin",
+    "npm_config_user_agent": "npm/7.6.3 node/v14.15.4 darwin x64",
+    "rvm_nightly_flag": "",
+    "rvm_ruby_make_install": "",
+    "VSCODE_GIT_ASKPASS_NODE": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)",
+    "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
+    "SDKMAN_CANDIDATES_DIR": "/Users/naor.tedgi/.sdkman/candidates",
+    "rvm_niceness": "",
+    "DISPLAY": "/private/tmp/com.apple.launchd.hh3Y2Aq1ta/org.macosforge.xquartz:0",
+    "LC_TERMINAL": "iTerm2",
+    "rvm_ruby_bits": "",
+    "rvm_bin_flag": "",
+    "rvm_only_path_flag": "",
+    "RUBY_VERSION": "ruby-2.7.2",
+    "npm_node_execpath": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node",
+    "npm_config_prefix": "/Users/naor.tedgi/.nvm/versions/node/v14.15.4",
+    "COLORTERM": "truecolor"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 49152,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 5568,
+      "hard": 5568
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/Users/naor.tedgi/.nvm/versions/node/v14.15.4/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib",
+    "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+    "/usr/lib/libenergytrace.dylib",
+    "/usr/lib/libbsm.0.dylib",
+    "/usr/lib/system/libkxld.dylib"
+  ]
+}
